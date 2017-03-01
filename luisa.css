@@ -1,12 +1,22 @@
-
-
+*
+{
+	font-family: 'Scope One', serif;
+	box-sizing: border-box;
+	background-color: #f6fafb;
 }
+.about
+{
+	list-style: none;
+}
+
 body
 {
 	background-color: #f6fafb;
 }
-h1
+
+}
+/*break-point*/
+@media (max-width: 640px) 
 {
-	font-family: 'Scope One', serif;
-	font-weight: 400;
+
 }
