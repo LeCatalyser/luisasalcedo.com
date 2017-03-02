@@ -7,14 +7,13 @@
 }
 .nav
 {
-	position: fixed;
     top: 0;
     left: 0;
     width: 300px;
     height: 100%;
     padding-top: 80px;
     padding-left: 20px;
-  
+   
 }
 .index
 {
@@ -58,6 +57,7 @@ h1
 body
 {
 	background-color: #f6fafb;
+	display: flex;
 }
 .luisa
 {
@@ -76,7 +76,19 @@ body
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+.column img {
+	
+	width: 100%;
 }
+.column {
+	flex-grow: 1;
+	flex-basis: 0;
+	font-size: 0;
+}
+
+
 /*break-point*/
 @media (max-width: 640px) 
 {
