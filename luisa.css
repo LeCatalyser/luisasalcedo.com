@@ -3,15 +3,59 @@
 	font-family: 'Scope One', serif;
 	box-sizing: border-box;
 	background-color: #f6fafb;
-}
-.about
-{
 	list-style: none;
+}
+.nav
+{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 20px;
+    background-color: blue;
+  
+}
+.index
+{
+	text-align: left;
+	display: inline-block;
+	position: normal;
+	height: 200px;
+	width: 200px;
+	text-align: right;
+	color: #bfbfbf;
+
+}
+
+.link a
+{
+	text-decoration: none;
+	color: black;
+}
+
+h1
+{
+	background-color: yellow;
+	height: 200px;
+	text-align: center;
+	margin-top: 10px;
 }
 
 body
 {
 	background-color: #f6fafb;
+}
+.luisa
+{
+	display: inline-block;
+	border: none;
+	position: static;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	top: 800px;
 }
 
 }
