@@ -81,11 +81,13 @@ body
 .column img {
 	
 	width: 100%;
+
 }
 .column {
 	flex-grow: 1;
 	flex-basis: 0;
 	font-size: 0;
+	left-padding: 10px;
 }
 
 
@@ -93,4 +95,11 @@ body
 @media (max-width: 640px) 
 {
 
+}
+
+@media only screen and (min-width: 800px) {
+
+{
+    /* do something to
+    over-ride settings at previous threshold settings*/
 }
