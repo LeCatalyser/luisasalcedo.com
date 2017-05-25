@@ -1,6 +1,10 @@
-function main() {
-      var message = "Hello world from JS!";
-      console.log(message);
-      alert(message);
+const currentPage = {
+  currentPage: "homePage"
 };
-main();
+$(".link a").on("click", function(event) {
+  const page = $(event.currentTarget).attr("page");
+  console.log(page);
+  $("section").css("display", "none");
+  $(page).css("display", "block");
+  console.log("is it working?");
+});
