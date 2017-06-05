@@ -16,10 +16,25 @@
 		*/
 }
 
+.page-about {
+	height: 100vh;
+	background-color: #faf7f4;
+	text-align: center;
+	display: block;
+
+}
+
+.page-contact {
+	height: 100vh;
+	background-color: turquoise;
+	text-align: center;
+}
+
 .index
 {
-	text-align: left;
-	display: inline-block;
+	text-align: center;
+	display: block;
+	margin: auto;
 	position: normal;
 	height: 200px;
 	width: 200px;
@@ -40,7 +55,7 @@
 }
 
 li
-{3
+{
 	margin: 20px;
 }
 
@@ -55,7 +70,7 @@ h1
 body
 {
 	background-color: #f6fafb;
-	display: flex;
+	/*display: flex;*/
 }
 .luisa
 {
