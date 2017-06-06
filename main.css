@@ -15,12 +15,14 @@
     padding-left: 20px;
 		*/
 }
-
 .page-about {
 	height: 100vh;
 	background-color: #faf7f4;
 	text-align: center;
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 
 }
 
@@ -28,6 +30,9 @@
 	height: 100vh;
 	background-color: turquoise;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .index
@@ -86,8 +91,7 @@ body
 {
 	border-bottom: 3px solid black;
 	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
 }
 
 .column img {

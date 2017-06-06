@@ -10,7 +10,12 @@ $(function() {
     // console.log("is it working?");
   });
 });
-
+$(".typed").typed({
+  strings: ["developer", "operations nerd", "counselor"],
+  typeSpeed: 0,
+  loop: true,
+  backDelay: 3000
+});
 $(".link a").click(function(event) {
   event.preventDefault();
   var hash = this.hash;
