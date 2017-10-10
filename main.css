@@ -2,11 +2,41 @@
 {
 	font-family: 'Scope One', serif;
 	box-sizing: border-box;
-	background-color: #f6fafb;
 	list-style: none;
 }
+
+header {
+	background-image: url("./images/luisa.jpg");
+	background-size: cover;
+	height: 100%;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body
+{
+	background-color: #f6fafb;
+	/*display: flex;*/
+}
+
+.title
+{
+	position: fixed;
+	right: 50%;
+	top: 200px;
+	width: 100%;
+	}
+
+	h1 span
+	{
+		color: whitesmoke;  
+		font-size: 40px;
+	}
+
 .nav
 {
+	width: 100%;
     /*top: 0;
     left: 0;
     width: 300px;
@@ -23,9 +53,7 @@
 	justify-content: center;
 	align-items: center;
 
-
 }
-
 .page-contact {
 	height: 100vh;
 	background-color: turquoise;
@@ -64,28 +92,17 @@ li
 	margin: 20px;
 }
 
-h1
-{
-	height: 150px;
-	text-align: center;
-	margin-top: 10px;
-	
-	}
-
-body
-{
-	background-color: #f6fafb;
-	/*display: flex;*/
-}
 .luisa
 {
-	display: inline-block;
+	position: relative;
+	width: 100;
+	/*display: inline-block;
 	border: none;
 	position: static;
 	height: 100%;
 	width: 100%;
 	border-radius: 10px;
-	top: 800px;
+	top: 800px;*/
 }
 .nothing
 {
@@ -106,17 +123,29 @@ body
 }
 
 /*break-point*/
-@media (max-width: 640px) 
-{
- .nav {
-	 width: 100%;
- }
+@media only screen and (max-width: 500px) {
+.head {
+	width: 100%;
+}
+.nav {
+	width: 100%;
+}
 
+h2 {
+	font-size: 3em;
+	width: 100%;
+}
+main
+{
+	display: block;
+}
 }
 
 @media only screen and (min-width: 800px) {
 
-{
-    /* do something to
-    over-ride settings at previous threshold settings*/
+}
+@media only screen and (max-width: 500px) {
+	* {
+		width: 100%;
+	}
 }
