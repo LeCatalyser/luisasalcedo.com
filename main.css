@@ -111,6 +111,9 @@ li {
   font-size: 0;
   padding-left: 10px;
 }
+#list {
+  list-style: none;
+}
 
 /*break-point*/
 @media only screen and (max-width: 500px) {
