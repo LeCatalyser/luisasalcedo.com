@@ -8,6 +8,7 @@ header {
   background-image: url("./images/luisa_salcedo_blue.jpg");
   background-size: cover;
   height: 100%;
+  border-radius: 10px;
 }
 html,
 body {
@@ -48,10 +49,11 @@ h1 span {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-width: 40px;
 }
 .page-contact {
   height: 100vh;
-  background-color: turquoise;
+  background-color: #faf7f4;
   text-align: center;
   display: flex;
   justify-content: center;
