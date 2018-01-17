@@ -12,7 +12,7 @@ $(function() {
 });
 $(".typed").typed({
   strings: ["developer", "operations nerd", "counselor"],
-  typeSpeed: 0,
+  typeSpeed: 10,
   loop: true,
   backDelay: 3000
 });
