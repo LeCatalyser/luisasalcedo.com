@@ -58,7 +58,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #0399d3 0, #39aec2 100%);
+  background: linear-gradient(0deg, #0399d3 0, #5575A7 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -147,14 +147,14 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-secondary {
-  background-color: #ff6a00;
-  border-color: #ff6a00;
+  background-color:#5575A7;
+  border-color: #5575A7;
 }
 
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
-  background-color #5575A7 !important;
+  background-color: #5575A7 !important;
   border-color: #cc5500 !important;
 }
 
