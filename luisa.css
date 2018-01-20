@@ -1,7 +1,7 @@
 header.masthead {
   padding-bottom: 10rem;
   background: #5575A7;
-},
+}
 @media only screen and (max-width: 500px) {
   header.masthead {
     background: #5575A7;
@@ -11,4 +11,4 @@ header.masthead {
     font-size: 3rem;
   }
 }
-}
+
