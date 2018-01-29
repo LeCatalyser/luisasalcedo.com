@@ -5,7 +5,7 @@
   "description": "A one page HTML template built with Bootstrap",
   "scripts": {
     "test": "echo 'hello'"
-  }
+  },
   "keywords": [
     "css",
     "sass",
