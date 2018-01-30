@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - One Page Wonder v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/one-page-wonder)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
- */
 body {
   font-family: "Lato";
 }
@@ -23,6 +18,10 @@ h6 {
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+}
+
+.border {
+  border-radius: 40px;
 }
 
 .bg-black {
@@ -58,7 +57,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #0399d3 0, #5575A7 100%);
+  background: linear-gradient(0deg, #0399d3 0, #5575a7 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -147,14 +146,14 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-secondary {
-  background-color:#5575A7;
-  border-color: #5575A7;
+  background-color: #5575a7;
+  border-color: #5575a7;
 }
 
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
-  background-color: #5575A7 !important;
+  background-color: #5575a7 !important;
   border-color: #cc5500 !important;
 }
 

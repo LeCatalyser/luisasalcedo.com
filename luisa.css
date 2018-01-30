@@ -1,14 +1,14 @@
 header.masthead {
   padding-bottom: 10rem;
-  background: #5575A7;
+  background: #5575a7;
 }
+
 @media only screen and (max-width: 500px) {
   header.masthead {
-    background: #5575A7;
+    background: #5575a7;
   }
   header.masthead .masthead-content .masthead-heading {
-    color:white;
+    color: white;
     font-size: 3rem;
   }
 }
-
